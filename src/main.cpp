@@ -1,9 +1,4 @@
-#include "raylib.h"
-
-constexpr int WINDOW_WIDTH = 1280;
-constexpr int WINDOW_HEIGHT = 720;
-const char *WINDOW_TITLE = "Raylib project"; 
-constexpr Color BG_COLOR = WHITE;
+#include "main.hpp"
 
 int main ()
 {
@@ -14,7 +9,7 @@ int main ()
 	while (!WindowShouldClose())
 	{
 		BeginDrawing();
-		ClearBackground(WHITE);
+		ClearBackground(BG_COLOR);
 		EndDrawing();
 	}
 
